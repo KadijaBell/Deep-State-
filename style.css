@@ -1,29 +1,39 @@
 
 /* Homepage styling */
 
- body{
+  body{
 padding: 0;
 margin: 0;
 height: 100vh;
 width: 100vw;
 justify-content: center;
-align-items: center; 
+align-items: center;
 display: flex;
+background-image: url("images/starting_background.jpeg");
+background-repeat: none;
+background-size:cover;
 background-color: #66ff99;
+font-family: monospace;
+color: whitesmoke;
+font-size: x-large;
+} 
 
-}
 
 
 /* transitions for buttons */
 .button {
-    background-color: whitesmoke;
+    background-color: black;
     color: black;
+    color: aqua;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block; 
+    align-items: center;
+
     font-size: 16px;
     border-radius: 12px;
+  
     
   }
 
@@ -31,5 +41,13 @@ background-color: #66ff99;
     box-shadow: 0 12px 16px 0 rgba(39,228,245,0.8), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+
+  .button .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+
+ 
 
   /* Question Page Styles */
