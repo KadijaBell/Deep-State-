@@ -1,15 +1,11 @@
 console.log("Sanity Check2"); 
 
 
-function deepState (questions){
-    this.score = 0;
-    this.questions = questions;
-}
 
 
 //Questions
 let gameQuestions =[{
-
+    
         questions: "What color is right?",
         answerChoices: ["red", "blue", "green", "orange"],
         correctAnswer: "red",
@@ -18,42 +14,48 @@ let gameQuestions =[{
 
     {
 
-    question: "Whats your favorite number?",
-    answerChoices:["3", "5","7","9"],
-    correctAnswer: "5",
+        questions: "Whats the odd number?",
+        answerChoices:["2", "5","4","8"],
+        correctAnswer: "5",
+    
+},
 
-    },
-
-    {
-
-
-        question: "How many days of the week?",
+{
+    
+    
+        questions: "How many days of the week?",
         answerChoices:["0","7","4","1"],
         correctAnswer: "7",
+    
+},
 
-    },
-
-    {
-
-
-
-        question: "Yellow is a primary color",
+{
+    
+    
+    
+        questions: "Yellow is a primary color",
         answerChoices:["True", "False"],
         correctAnswer: "True",
 
-
+    
 }];
 
 
 //gameplay function 
 let playerScore = 20;
-let totalQuestions = 4;
+let totalQuestions = 6;
 
 
+function deepState (){
+    this.score = 0; //player starting score
+    this.questions = gameQuestions; //game question need to generate randomly
+}
 enterDeepState = () => {
     score = 0;
-    levelCounter = 0;
-    questionBank = [gameQuestions];
+    level = 0;
+    questionBank = gameQuestions;
+    choices = gameQuestions[level].answerChoices;
+    console.log(choices);
 }
  enterDeepState();
 
@@ -62,6 +64,12 @@ enterDeepState = () => {
  Array.from(document.getElementsByClassName("btn-answer")).forEach(button => {
    button.addEventListener("click", function (event){
       //if statments for correct and incorrect answer
+      if (correctAnswer === true){
+
+      }
+      if (incorrectAnswer === false){
+
+    }
       console.log(event.target.dataset.correct)
    })  
  });
@@ -70,3 +78,5 @@ enterDeepState = () => {
 //Winning Conditions
 //Wrong Answer
 //PictureTransitions 
+//use dom to reveal each part of picture 
+//function and access dom
