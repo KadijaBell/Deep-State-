@@ -22,7 +22,7 @@ Enjoy game
 
 
 
- #User stories 
+ # User stories 
 
 As a player I would like to read and answer questions
 As a player I would like to select answer choices
@@ -43,7 +43,7 @@ As a player I would like to have great images so that I can accurately guess ans
 
 
 
- # Descriptions of any Unsolved problems or major hurdles you had to overcome
+ # Challenges
 
 I faced issues with :
 -getting the answer choice to generate a new question
@@ -53,4 +53,4 @@ I faced issues with :
 
 
 Link to your hosted project in the URL section of your Github repo.
-https://github.com/KadijaBell/Deep-State-/
+https://kadijabell.github.io/Deep-State-/
