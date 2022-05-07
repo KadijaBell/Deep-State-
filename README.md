@@ -10,9 +10,13 @@
 
  
  #Technologies 
+ 
+ 
  The technologies used to create this project was Javascript,HTML and CSS.
 
- #Installation instructions
+
+
+#Installation instructions
  
 Navigate to web browser 
 
@@ -34,21 +38,24 @@ As a player I would like to have great images so that I can accurately guess ans
 
 
 
-
-
- #Wireframes  
+#Wireframes  
+ 
+ 
  ![Untitled (1)](https://user-images.githubusercontent.com/101621511/167238387-b21b3a4e-8537-4385-bb32-23a77ec06041.png)
 
 ![Untitled (1)](https://user-images.githubusercontent.com/101621511/167238394-d4e1b382-e3a7-4400-9322-f838f379b5ac.png)
 
 
-
- Descriptions of any Unsolved problems or major hurdles you had to overcome
+Descriptions of any Unsolved problems or major hurdles you had to overcome
 
 I faced issues with :
+
 -getting the answer choice to generate a new question
+
 -getting the image to show as a pop out window
+
 -getting the score to calculate 
+
 -generating a you lose alert
 
 
