@@ -26,7 +26,7 @@ let questions =[{
 
         question: " Technology is one of the villains associated with the New World Order.The secret elite is planning to take over by using this in which way?",
         answerChoice:["Human enhancement tech", " A world wide epidemic of obesity","Mind control placed in teeth fillings","Mind control drugs in our drinking water"],
-        winner: "Human enhancement technologies",
+        winner: "Human enhancement tech",
         image: 2,
     
 },
@@ -47,7 +47,7 @@ let questions =[{
     
         question: "Who was meant to lead QAnon's predicted 'Storm'?",
         answerChoice:["Joe Biden", "Barrack Obama", "Donald Trump", "John F Kennedy"],
-        winner: "True",
+        winner: "Donald Trump",
         image:4,
     
 }];
@@ -77,13 +77,9 @@ enterDeepState = () => {
       answer[index].innerText = answerChoice
       index++;
 
-   
-
     })
 
  }
-
-
  enterDeepState();
 
  
