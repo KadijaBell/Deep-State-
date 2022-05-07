@@ -10,10 +10,8 @@ body{
     font-family: monospace;
     color: red;
     font-size:large;
-    background-image: url(/assests/Background.jpeg);
+    background-image: url("../assests/Background.jpeg");
     background-repeat: no-repeat;
-    /* background-size: contain;
-    background-position: center; */
     background-size: contain;
     background-size: 100%;
     background-size: 100vw 100vh;
