@@ -15,18 +15,18 @@ let playerAnswer = false;
 //Questions
 let questions =[{
     
-        question: "What color is right?",
-        answerChoice: ["red", "blue", "green", "orange"],
-        winner: "red",
+        question: "Which ancient esoteric organisation has often been accused of plotting to bring about a new world order?",
+        answerChoice: ["C.W.A", "Freemasonry", "Rotary International", "Starlight Foundation"],
+        winner: "Freemasonry",
         image: 1,
 
     },
 
     {
 
-        question: "Whats the odd number?",
-        answerChoice:["2", "5","4","8"],
-        winner: "5",
+        question: " Technology is one of the villains associated with the New World Order.The secret elite is planning to take over by using this in which way?",
+        answerChoice:["Human enhancement tech", " A world wide epidemic of obesity","Mind control placed in teeth fillings","Mind control drugs in our drinking water"],
+        winner: "Human enhancement technologies",
         image: 2,
     
 },
@@ -34,9 +34,9 @@ let questions =[{
 {
     
     
-        question: "How many days of the week?",
-        answerChoice:["0","7","4","1"],
-        winner: "7",
+        question: "Which cartoon show was said to reveal future events?",
+        answerChoice:["Family Guy","The Simpsons","Rick and Morty","Robot Chicken"],
+        winner: "The Simpsons",
         image: 3,
     
 },
@@ -45,8 +45,8 @@ let questions =[{
     
     
     
-        question: "Yellow is a primary color",
-        answerChoice:["True", "False", "Test ", "Test2"],
+        question: "Who was meant to lead QAnon's predicted 'Storm'?",
+        answerChoice:["Joe Biden", "Barrack Obama", "Donald Trump", "John F Kennedy"],
         winner: "True",
         image:4,
     
@@ -77,10 +77,9 @@ enterDeepState = () => {
       answer[index].innerText = answerChoice
       index++;
 
-    })
+   
 
-    
-    playerAnswer = true;
+    })
 
  }
 
@@ -117,7 +116,7 @@ let previousButtonClick;
                button.style.backgroundColor = 'black';
        }
 
-       
+     
 
        
    }) 
