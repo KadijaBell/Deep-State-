@@ -20,7 +20,7 @@
  
 Navigate to web browser 
 
-Go to https://github.com/KadijaBell/Deep-State-/ 
+Go to https://kadijabell.github.io/Deep-State-/HTML/gameroom.html
 
 Enjoy game 
 
